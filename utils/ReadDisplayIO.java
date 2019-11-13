@@ -1,3 +1,4 @@
+package utils;
 import java.util.Scanner;
 
 public class ReadDisplayIO {
@@ -32,5 +33,11 @@ public class ReadDisplayIO {
         for(int i = 0; i < array.length; i++) {
             System.out.print(" " +array[i] + " ");
         }
+    }
+
+    public static int readInteger() {
+        System.out.println("Enter n");
+        int n = sc.nextInt();
+        return n;
     }
 }

@@ -1,3 +1,4 @@
+package arrays;
 //Leetcode #724
 // Given an array , find pivotIndex : its defined as an index whose sum of elements to left of it and right of it is equal.
 /*
@@ -8,6 +9,7 @@ Explanation:
 The sum of the numbers to the left of index 3 (nums[3] = 6) is equal to the sum of numbers to the right of index 3.
 Also, 3 is the first index where this occurs.
 */
+import utils.ReadDisplayIO;
 
 class  FindPivotIndex {
     public int pivotIndex(int[] nums) {

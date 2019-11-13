@@ -10,9 +10,10 @@
 
 Output:  [1,2,4,7,5,3,6,8,9]
 */
-
+package arrays;
 import java.util.ArrayList;
 import java.util.Collections;
+import utils.ReadDisplayIO;
 
 public class DiagonalTraverse {
 
