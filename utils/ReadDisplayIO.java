@@ -31,8 +31,19 @@ public class ReadDisplayIO {
 
     public static void displayArray(int[] array) {
         for(int i = 0; i < array.length; i++) {
-            System.out.print(" " +array[i] + " ");
+            System.out.print(" " + array[i] + " ");
         }
+    }
+
+    public static void displayArray(int[] array, int until) {
+        if(until > array.length) {
+            return;
+        }
+        System.out.println();
+        for(int i = 0; i < until; i++) {
+            System.out.print(" " + array[i] + " ");
+        }
+        System.out.println();
     }
 
     public static int readInteger() {
