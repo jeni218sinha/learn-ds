@@ -51,4 +51,10 @@ public class ReadDisplayIO {
         int n = sc.nextInt();
         return n;
     }
+
+    public  static String readString() {
+        System.out.println(" Enter the string");
+        String s = sc.nextLine();
+        return s;
+    }
 }
